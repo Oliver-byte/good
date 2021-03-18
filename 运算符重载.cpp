@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 class Complex
 {
@@ -10,6 +10,7 @@ public:
 	void display();
 	Complex operator++();//前置
 	Complex operator++(int);//后置
+	friend Complex operator-(Complex& c1, Complex& c2);//若不是成员函数，要用friend
 };
 Complex Complex::operator+(Complex& c2)
 {
@@ -38,4 +39,4 @@ int main()
 	c3.display();
 	(++c3).display();
 	(c3++).display();
-}
+}*/
